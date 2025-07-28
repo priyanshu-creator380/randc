@@ -449,9 +449,9 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid px-5 py-1 justify-content-center" style="width: 80%;">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="#hero">
                 <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logor_c-removebg-preview-jaaqsGkxz5kBoLckF9BMxkH6qBqRXa.png" alt="Logo" height="40" />
             </a>
             <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
@@ -462,19 +462,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="index.html">Home</a>
+                        <a class="nav-link text-white active" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="about.html">About</a>
+                        <a class="nav-link text-white" href="about.php">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="projects.html">Projects</a>
+                        <a class="nav-link text-white" href="projects.php">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="services.html">Services</a>
+                        <a class="nav-link text-white" href="services.php">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white active" href="contact.html">Contact</a>
+                        <a class="nav-link text-white" href="contact.php">Contact</a>
                     </li>
                 </ul>
             </div>

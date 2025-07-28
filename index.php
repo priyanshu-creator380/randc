@@ -981,19 +981,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-white active" href="#hero">Home</a>
+                        <a class="nav-link text-white active" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#about">About</a>
+                        <a class="nav-link text-white" href="about.php">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#projects">Projects</a>
+                        <a class="nav-link text-white" href="projects.php">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#services-1">Services</a>
+                        <a class="nav-link text-white" href="services.php">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#contact">Contact</a>
+                        <a class="nav-link text-white" href="contact.php">Contact</a>
                     </li>
                 </ul>
             </div>
