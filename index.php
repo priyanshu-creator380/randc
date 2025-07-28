@@ -113,14 +113,15 @@
         }
 
         .mobile-section {
-            min-height: 60vh;
+            min-height: 50vh; /* Adjusted for potentially less content */
             padding: 2rem 0;
             display: flex;
-            flex-direction: column; /* Stack children vertically */
+            flex-direction: column;
             align-items: center; /* Center children horizontally */
             justify-content: flex-start; /* Align content to the top */
             position: relative;
             height: auto; /* Allow height to be determined by content */
+            width: 100%; /* Ensure mobile section takes full width */
         }
 
         /* Hero Section */
@@ -749,13 +750,15 @@
                 background-position: center;
                 height: auto; /* Changed from 35vh */
                 min-height: 250px; /* Keep min-height */
-                margin: 0.5rem 0;
+                margin: 0.5rem auto; /* Center the card */
                 position: relative;
                 display: flex;
                 align-items: end;
                 justify-content: center;
                 border-radius: 8px;
                 overflow: hidden;
+                width: 90%; /* Ensure it takes up a good width on mobile */
+                max-width: 400px; /* Prevent it from getting too wide on tablets */
             }
 
             .mobile-area-card::before {
@@ -789,7 +792,7 @@
                 backdrop-filter: blur(10px);
                 border-radius: 12px;
                 padding: 1.5rem; /* Good padding */
-                margin: 1rem 0; /* Spacing between cards */
+                margin: 1rem auto; /* Spacing between cards and center */
                 border: 1px solid rgba(255, 255, 255, 0.1);
                 color: white; /* Ensure text is white */
                 text-align: center; /* Center text within the card */
@@ -829,20 +832,32 @@
                 height: auto;
                 padding-top: 2rem; /* Add some top padding for mobile headers */
                 padding-bottom: 1rem;
-                display: block; /* Revert to block for normal flow */
-                text-align: center; /* Center text for mobile headers */
                 width: 100%; /* Ensure it takes full width */
+                text-align: center; /* Center text for mobile headers */
             }
             .mobile-section .section-content {
                 height: auto; /* Revert to auto height for mobile */
                 padding-bottom: 2rem; /* Adjust padding for mobile content */
-                display: block; /* Revert to block for normal flow */
                 width: 100%; /* Ensure it takes full width */
-                /* Override desktop flex properties for content within mobile sections */
                 display: flex; /* Make it a flex container for its children (the row) */
                 flex-direction: column; /* Stack the row vertically if needed, though row already handles this */
-                align-items: center; /* Center the row horizontally */
+                align-items: center; /* Center children (the row) horizontally */
                 justify-content: flex-start; /* Align content to the top within this section */
+            }
+
+            /* Ensure the row within section-content is also centered and takes full width */
+            .mobile-section .section-content .row {
+                width: 100%;
+                justify-content: center; /* Center columns within the row */
+                margin-left: 0; /* Remove negative margins if they cause issues */
+                margin-right: 0;
+            }
+
+            /* Ensure individual col-12 elements are centered if they contain smaller content */
+            .mobile-section .section-content .col-12 {
+                display: flex;
+                justify-content: center;
+                width: 100%; /* Ensure it takes full width */
             }
 
             /* Specific mobile header font sizes */
@@ -859,6 +874,21 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: flex-start;
+            }
+
+            /* New style for mobile project cards */
+            .mobile-project-card {
+                background: rgba(255, 255, 255, 0.08);
+                backdrop-filter: blur(10px);
+                border-radius: 12px;
+                padding: 1.5rem;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                color: white;
+                text-align: center; /* Center text inside */
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                width: 90%; /* Give it a defined width */
+                max-width: 400px; /* Max width for larger mobile devices */
+                margin: 0 auto; /* Center the card itself */
             }
         }
 
@@ -1591,6 +1621,13 @@
             <div class="container turnover-content text-center">
                 <h2 class="section-title text-white mb-4">Our Turnover Over the Years</h2>
                 <div class="row gy-3">
+                    <div class="col-12">
+                        <div class="turnover-card glass-card">
+                            <h4>2021-22</h4>
+                            <p class="amount">₹ 6,200 Cr</p>
+                            <p class="growth">+14% YoY</p>
+                        </div>
+                    </div>
                     <div class="col-12">
                         <div class="turnover-card glass-card">
                             <h4>2022-23</h4>
