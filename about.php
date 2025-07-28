@@ -424,9 +424,19 @@
             body {
                 overflow-y: auto; /* Enable natural scrolling on mobile */
             }
+            
             .scroll-wrapper {
-                display: none; /* Hide desktop scroll behavior */
+                height: auto !important; /* Allow natural height on mobile */
+                overflow: visible !important; /* Allow content to overflow and enable scrolling */
+                position: relative; /* Revert to relative positioning */
             }
+
+            .scroll-container {
+                height: auto !important; /* Allow natural height on mobile */
+                transform: none !important; /* Disable any JS-applied transforms */
+                transition: none !important; /* Disable transitions for natural scroll */
+            }
+
             .scroll-indicators {
                 display: none;
             }
@@ -1392,30 +1402,6 @@
                 navbar.style.background = 'rgba(46, 46, 46, 0.9)';
             } else {
                 navbar.style.background = 'rgba(46, 46, 46, 0.25)';
-            }
-        });
-
-        // Handle window resize for desktop/mobile switch
-        window.addEventListener('resize', () => {
-            // Reload only if the display mode (desktop vs mobile) changes
-            const currentIsMobile = window.innerWidth <= 992;
-            const wasMobile = document.body.classList.contains('mobile-layout');
-
-            if (currentIsMobile !== wasMobile) {
-                location.reload();
-            }
-            // Update body class for CSS to react
-            if (currentIsMobile) {
-                document.body.classList.add('mobile-layout');
-            } else {
-                document.body.classList.remove('mobile-layout');
-            }
-        });
-
-        // Initial check for mobile layout on load
-        document.addEventListener('DOMContentLoaded', () => {
-            if (window.innerWidth <= 992) {
-                document.body.classList.add('mobile-layout');
             }
         });
     </script>
