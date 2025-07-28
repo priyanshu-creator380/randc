@@ -1,10 +1,8 @@
 # R&C Company Website - Web Pages
 
+
+I used reference from other sites scroll effects and tried to add some special touch and used all these stuff to look cool. was not sure what name to put for a company so i used r & c randomly beacause it came up during web search you could generate content according to the layout and use it fro yourself
 This is a bunch of files for the R&C Company website. It looks pretty cool with its special sliding pages and glass-like stuff. These files are like the "front part" of the website, and they're ready to work with a "back part" made with PHP.
-
-## What's This All About?
-
-This project has the main parts of a company website: a page for projects, a page for services, and a contact page. Each page is designed to look nice and work smoothly on big computers and small phones.
 
 ## Cool Stuff It Does
 
@@ -17,7 +15,8 @@ This project has the main parts of a company website: a page for projects, a pag
 
 ## The Pages You Get
 
-*   **`index.php` **: This would be the main page you land on.
+*   **`index.php`**: This would be the main page you land on.
+*   **`about.php`**: This would be the about page you land on.
 *   **`projects.php`**: Shows off different projects, each on its own full screen, with a footer that sits on top at the very end.
 *   **`services.php`**: Explains what the company does, its services, and the tools it uses. Everything is neatly organized into sections.
 *   **`contact.php`**: Has info on how to reach the company, like a map, office details, and a simple form to send a message.
@@ -29,3 +28,12 @@ This project has the main parts of a company website: a page for projects, a pag
 *   **JavaScript:** This makes things move and react when you click or scroll.
 *   **Bootstrap:** A helper tool that makes it easier to make the website look good on different screen sizes.
 *   **Font Awesome:** This gives us all the cool little icons (like phone, email, social media).
+
+
+## How to use it 
+1. Download the zip folder.
+2. Extract the folder in your folder where you want to save it
+3. I used xampp server to run on local server so you could also download it.
+4. Start xampp server
+5. open browser and search `localhost/foldername`
+6. Keep in mind if you are using xampp save the extracted folder in xampp/htdocs
