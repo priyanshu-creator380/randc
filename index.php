@@ -85,8 +85,10 @@
 
         /* New style for the top 20% header area within a scroll-section */
         .section-top-20 {
-            height: 20vh;
+            /* height: 20vh; */
+            margin-top: 10%;
             width: 100%;
+            position: absolute;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -96,12 +98,11 @@
 
         /* Existing .section-content now takes the remaining 80% */
         .section-content {
-            height: 80vh; /* Takes the remaining 80% of the 100vh scroll-section */
+            height: 100vh; /* Takes the remaining 80% of the 100vh scroll-section */
             width: 100%;
             display: flex;
-            align-items: end; /* Align content to the bottom of this 80vh space */
+            align-items: center; /* Align content to the bottom of this 80vh space */
             justify-content: center;
-            padding-bottom: 10vh; /* Keep existing padding for content */
             position: relative; /* Ensure z-index works if needed */
             z-index: 2; /* Ensure it's above background but below header */
         }
@@ -133,7 +134,7 @@
         }
 
         .carousel-item img {
-            height: 100%;
+            height:     ;
             width: 100%;
             object-fit: cover;
         }
@@ -231,7 +232,7 @@
             background-size: cover;
             background-position: center;
             flex: 1;
-            height: 70vh;
+            height: 100vh;
             transition: transform 0.3s ease;
             display: flex;
             align-items: end;
@@ -1025,25 +1026,25 @@
                     <div id="carouselExample" class="carousel slide w-100 h-100" data-bs-ride="carousel">
                         <div class="carousel-inner h-100">
                             <div class="carousel-item active">
-                                <img src="/placeholder.svg?height=800&width=1200&text=Construction+Site" class="d-block w-100 h-100" alt="Construction Site" data-bs-interval="6000">
+                                <img src="./imgs/1.jpeg" class="d-block w-100 h-100" alt="Construction Site" data-bs-interval="6000">
                                 <div class="overlay">
                                     Building Tomorrow
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="/placeholder.svg?height=800&width=1200&text=Engineering+Excellence" class="d-block w-100 h-100" alt="Engineering Project" data-bs-interval="6000">
+                                <img src="./imgs/2.jpeg" class="d-block w-100 h-100" alt="Engineering Project" data-bs-interval="6000">
                                 <div class="overlay">
                                     Engineering Excellence
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="/placeholder.svg?height=800&width=1200&text=Infrastructure+Leaders" class="d-block w-100 h-100" alt="Infrastructure" data-bs-interval="6000">
+                                <img src="./imgs/3.jpeg" class="d-block w-100 h-100" alt="Infrastructure" data-bs-interval="6000">
                                 <div class="overlay">
                                     Infrastructure Leaders
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="/placeholder.svg?height=800&width=1200&text=Global+Projects" class="d-block w-100 h-100" alt="Global Projects" data-bs-interval="6000">
+                                <img src="./imgs/4.jpeg" class="d-block w-100 h-100" alt="Global Projects" data-bs-interval="6000">
                                 <div class="overlay">Global Projects</div>
                             </div>
                         </div>
@@ -1069,7 +1070,7 @@
             <!-- Services Section 3 -->
             <section id="services-3" class="scroll-section">
                 <div class="services-bg">
-                    <img src="/placeholder.svg?height=800&width=1200&text=Tunnel+Construction" alt="Tunnel Construction" />
+                    <img src="./imgs/tunnel.webp" alt="Tunnel Construction" />
                 </div>
                 <div class="section-content">
                     <div class="services-list text-white text-center position-relative z-2 w-100">
@@ -1097,35 +1098,35 @@
                 </div>
                 <div class="section-content">
                     <div class="area-cards-container w-100">
-                        <div class="area-card position-relative" style="background-image: url('/placeholder.svg?height=600&width=400&text=Marine+Industrial');">
+                        <div class="area-card position-relative" style="background-image: url('./imgs/6.jpg');">
                             <div class="overlay-text">
                                 <h4>MARINE & INDUSTRIAL</h4>
                                 <p>Nouakchott Container Terminal, Mauritania</p>
                             </div>
                             <a href="#" class="know-more">Know More</a>
                         </div>
-                        <div class="area-card position-relative" style="background-image: url('/placeholder.svg?height=600&width=400&text=Surface+Transport');">
+                        <div class="area-card position-relative" style="background-image: url('./imgs/7.jpg');">
                             <div class="overlay-text">
                                 <h4>SURFACE TRANSPORT</h4>
                                 <p>Samruddhi Mahamarg, Maharashtra, India</p>
                             </div>
                             <a href="#" class="know-more">Know More</a>
                         </div>
-                        <div class="area-card position-relative" style="background-image: url('/placeholder.svg?height=600&width=400&text=Oil+Gas');">
+                        <div class="area-card position-relative" style="background-image: url('./imgs/8.jpg');">
                             <div class="overlay-text">
                                 <h4>OIL & GAS</h4>
                             <p>HRD Process Platform, Mumbai High, India</p>
                             </div>
                             <a href="#" class="know-more">Know More</a>
                         </div>
-                        <div class="area-card position-relative" style="background-image: url('/placeholder.svg?height=600&width=400&text=Hydro+Underground');">
+                        <div class="area-card position-relative" style="background-image: url('./imgs/9.jpg');">
                             <div class="overlay-text">
                                 <h4>HYDRO & UNDERGROUND</h4>
                                 <p>Atal Tunnel, Himachal Pradesh, India</p>
                             </div>
                             <a href="#" class="know-more">Know More</a>
                         </div>
-                        <div class="area-card position-relative" style="background-image: url('/placeholder.svg?height=600&width=400&text=Urban+Infrastructure');">
+                        <div class="area-card position-relative" style="background-image: url('./imgs/10.jpg');">
                             <div class="overlay-text">
                                 <h4>URBAN INFRASTRUCTURE</h4>
                                 <p>East-West Metro, Kolkata, India</p>
@@ -1158,7 +1159,7 @@
                             <div class="testimonial-slider">
                                 <div class="testimonial-track" id="testimonialTrack">
                                     <div class="testimonial-slide">
-                                        <img src="/placeholder.svg?height=400&width=600&text=Client+Testimonial+1" alt="Testimonial 1">
+                                        <img src="./imgs/6.jpg" alt="Testimonial 1">
                                         <div class="testimonial-content">
                                             <h4>"Outstanding Engineering Excellence"</h4>
                                             <p>R&C delivered our marine terminal project ahead of schedule with exceptional quality standards.</p>
@@ -1166,7 +1167,7 @@
                                         </div>
                                     </div>
                                     <div class="testimonial-slide">
-                                        <img src="/placeholder.svg?height=400&width=600&text=Client+Testimonial+2" alt="Testimonial 2">
+                                        <img src="./imgs/4.jpeg" alt="Testimonial 2">
                                         <div class="testimonial-content">
                                             <h4>"Innovative Infrastructure Solutions"</h4>
                                             <p>The tunnel project showcased remarkable engineering capabilities and attention to safety.</p>
@@ -1174,7 +1175,7 @@
                                         </div>
                                     </div>
                                     <div class="testimonial-slide">
-                                        <img src="/placeholder.svg?height=400&width=600&text=Client+Testimonial+3" alt="Testimonial 3">
+                                        <img src="./imgs/2.jpeg" alt="Testimonial 3">
                                         <div class="testimonial-content">
                                             <h4>"Reliable Project Execution"</h4>
                                             <p>Consistent delivery of complex metro projects with world-class standards and timely completion.</p>
@@ -1282,28 +1283,28 @@
                             <div class="col-lg-8 col-md-7">
                                 <div class="projects-list-card">
                                     <div class="project-thumb">
-                                        <img src="/placeholder.svg?height=120&width=120&text=Lusaka+Project" alt="Lusaka Project">
-                                        <p>Lusaka City<br>Decongestion Project<br><small>Zambia</small></p>
+                                        <img src="./imgs/1.jpeg" alt="Lusaka Project">
+                                        <p>Lusaka City<br>Decongestion Project<br></p>
                                     </div>
                                     <div class="project-thumb">
-                                        <img src="/placeholder.svg?height=120&width=120&text=Samruddhi+Highway" alt="Samruddhi Project">
-                                        <p>Maharashtra Samruddhi<br>Mahamarg<br><small>India</small></p>
+                                        <img src="./imgs/2.jpeg" alt="Samruddhi Project">
+                                        <p>Maharashtra Samruddhi<br>Mahamarg<br></p>
                                     </div>
                                     <div class="project-thumb">
-                                        <img src="/placeholder.svg?height=120&width=120&text=LNG+Tanks" alt="LNG Tanks">
-                                        <p>LNG Storage<br>Tanks<br><small>India</small></p>
+                                        <img src="./imgs/3.jpeg" alt="LNG Tanks">
+                                        <p>LNG Storage<br>Tanks<br></p>
                                     </div>
                                     <div class="project-thumb">
-                                        <img src="/placeholder.svg?height=120&width=120&text=Sohar+Jetty" alt="Sohar Jetty">
-                                        <p>Sohar Port<br>Jetty<br><small>Oman</small></p>
+                                        <img src="./imgs/4.jpeg" alt="Sohar Jetty">
+                                        <p>Sohar Port<br>Jetty<br></p>
                                     </div>
                                     <div class="project-thumb">
-                                        <img src="/placeholder.svg?height=120&width=120&text=Jammu+Highway" alt="Jammu Highway">
-                                        <p>Jammu Udhampur<br>Highway<br><small>India</small></p>
+                                        <img src="./imgs/6.jpg" alt="Jammu Highway">
+                                        <p>Jammu Udhampur<br>Highway<br></p>
                                     </div>
                                     <div class="project-thumb">
-                                        <img src="/placeholder.svg?height=120&width=120&text=Delhi+Metro" alt="Delhi Metro">
-                                        <p>Delhi Metro<br>Extension<br><small>India</small></p>
+                                        <img src="./imgs/7.jpg" alt="Delhi Metro">
+                                        <p>Delhi Metro<br>Extension<br></p>
                                     </div>
                                 </div>
                             </div>
@@ -1480,8 +1481,8 @@
         <!-- Mobile Testimonials -->
         <section class="mobile-section position-relative" style="background: url('/placeholder.svg?height=400&width=800&text=Testimonials+Background') center/cover;">
             <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-75"></div>
-            <div class="section-top-20">
-                <h1 class="display-6 fw-bold text-center">VALIDATIONS</h1>
+            <div class="section-top-20" style="background-color: rgba(0, 0, 0, 0.3);">
+                <h1 class="display-6 fw-bold text-center" >VALIDATIONS</h1>
             </div>
             <div class="section-content">
                 <div class="row">
@@ -1578,25 +1579,25 @@
                 <div class="row gy-3">
                     <div class="col-6 col-md-4">
                         <div class="project-thumb text-center">
-                            <img src="/placeholder.svg?height=100&width=100&text=Lusaka" alt="Lusaka Project">
+                            <img src="./imgs/1.jpeg" alt="Lusaka Project">
                             <p class="mt-2">Lusaka City Project<br><small>Zambia</small></p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4">
                         <div class="project-thumb text-center">
-                            <img src="/placeholder.svg?height=100&width=100&text=Highway" alt="Samruddhi Highway">
+                            <img src="./imgs/3.jpeg" alt="Samruddhi Highway">
                             <p class="mt-2">Samruddhi Mahamarg<br><small>India</small></p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4">
                         <div class="project-thumb text-center">
-                            <img src="/placeholder.svg?height=100&width=100&text=LNG" alt="LNG Tanks">
+                            <img src="./imgs/2.jpeg" alt="LNG Tanks">
                             <p class="mt-2">LNG Storage Tanks<br><small>India</small></p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4">
                         <div class="project-thumb text-center">
-                            <img src="/placeholder.svg?height=100&width=100&text=Jetty" alt="Sohar Jetty">
+                            <img src="./imgs/4.jpeg" alt="Sohar Jetty">
                             <p class="mt-2">Sohar Port Jetty<br><small>Oman</small></p>
                         </div>
                     </div>
