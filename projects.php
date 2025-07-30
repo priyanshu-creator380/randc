@@ -139,7 +139,7 @@
 
         /* Intro Header */
         #projects-intro {
-            background-image: url('/placeholder.svg?height=1080&width=1920');
+            background-image: url('./imgs/tunnel.webp');
         }
 
         #projects-intro::before {
@@ -361,7 +361,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid px-5 py-1 justify-content-center" style="width: 80%;">
             <a class="navbar-brand" href="#hero">
-                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logor_c-removebg-preview-jaaqsGkxz5kBoLckF9BMxkH6qBqRXa.png" alt="Logo" height="40" />
+                <img src="./imgs/logo.png" alt="Logo" height="40" />
             </a>
             <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -463,9 +463,9 @@
                 completionDate: "October 2023",
                 description: "A sprawling complex of modern luxury villas, featuring sustainable design, smart home technology, and breathtaking views. The project involved complex landscape integration and high-end interior finishes.",
                 images: [
-                    "/placeholder.svg?height=1080&width=1920&text=Luxury Villa Complex 1",
-                    "/placeholder.svg?height=1080&width=1920&text=Luxury Villa Complex 2",
-                    "/placeholder.svg?height=1080&width=1920&text=Luxury Villa Complex 3"
+                    "https://destinationcompress.s3.ap-south-1.amazonaws.com/bc8ff7d5-b7b4-4271-9f99-5d8df773c24c.jpg",
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9gI320Tj1Y1Rnx1Hl25Gq2htK9xj0CitzSA&s",
+                    "https://luxurycroatia.net/wp-content/uploads/2018/04/Luxury-sea-view-villa-complex-Ciovo-island-2.jpg"
                 ]
             },
             {
@@ -476,9 +476,9 @@
                 completionDate: "April 2024",
                 description: "A 50-story LEED-certified office tower in the heart of Manhattan. This project presented challenges in urban logistics and integrating advanced building management systems. It now serves as a hub for tech startups.",
                 images: [
-                    "/placeholder.svg?height=1080&width=1920&text=Downtown Office Tower 1",
-                    "/placeholder.svg?height=1080&width=1920&text=Downtown Office Tower 2",
-                    "/placeholder.svg?height=1080&width=1920&text=Downtown Office Tower 3"
+                    "https://smartcdn.gprod.postmedia.digital/calgaryherald/wp-content/uploads/2023/01/20230104-downtown-AG-9994.jpg",
+                    "https://static2.gensler.com/uploads/hero_element/21207/thumb_desktop/thumbs/1_St_Clair_West_N7_1676931364_1024x576.jpg",
+                    "https://costar.brightspotcdn.com/dims4/default/81ec2a3/2147483647/strip/true/crop/2100x1398+0+0/resize/2100x1398!/quality/100/?url=http%3A%2F%2Fcostar-brightspot.s3.us-east-1.amazonaws.com%2F73%2F44%2Fcf497aee418cba45e63718227d3d%2Fprimaryphoto-2023-02-13t100321.029.jpg"
                 ]
             },
             {
@@ -489,9 +489,9 @@
                 completionDate: "January 2023",
                 description: "Construction of a cutting-edge facility for automotive component manufacturing. The project required specialized infrastructure for heavy machinery and strict adherence to industrial safety standards.",
                 images: [
-                    "/placeholder.svg?height=1080&width=1920&text=Manufacturing Plant 1",
-                    "/placeholder.svg?height=1080&width=1920&text=Manufacturing Plant 2",
-                    "/placeholder.svg?height=1080&width=1920&text=Manufacturing Plant 3"
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9m-7r1LX-yvte8BJXd764y2cThyPRsjkweA&s",
+                    "https://images.ctfassets.net/17si5cpawjzf/79Qm5kWVFRvsDr33wtsz5A/1d3f4e4a7a2ee2db96f7ddf8bd240044/tecnomatix-advanced-manufacturing-visualization-flip-og-1200x630.jpg",
+                    "https://www.stantec.com/content/dam/stantec/images/projects/0093/qcells-solar-power-manufacturing-1.jpg.transform/small/image.20230920.jpeg"
                 ]
             },
             {
@@ -502,63 +502,63 @@
                 completionDate: "November 2022",
                 description: "Major renovation and seismic retrofitting of a historic urban bridge. The project involved complex engineering to maintain traffic flow during construction and preserve the bridge's architectural integrity.",
                 images: [
-                    "/placeholder.svg?height=1080&width=1920&text=Bridge Renovation 1",
-                    "/placeholder.svg?height=1080&width=1920&text=Bridge Renovation 2",
-                    "/placeholder.svg?height=1080&width=1920&text=Bridge Renovation 3"
+                    "https://static.vecteezy.com/system/resources/previews/055/248/542/large_2x/urban-bridge-construction-project-with-heavy-machinery-and-structural-development-photo.jpg",
+                    "https://images.adsttc.com/media/images/6222/4e8e/3e4b/31c3/2500/0002/newsletter/Footbridge-Photo2.jpg?1646415491",
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzyexb5hxxND2tOTi1OOL7WDBVnspbSMdYVQ&s"
                 ]
             },
-            {
-                id: 5,
-                name: "Suburban Housing Development",
-                category: "residential",
-                location: "Austin, TX",
-                completionDate: "March 2024",
-                description: "Development of a new suburban community with 150 single-family homes. Focused on energy efficiency and community amenities, including parks and recreational facilities.",
-                images: [
-                    "/placeholder.svg?height=1080&width=1920&text=Housing Development 1",
-                    "/placeholder.svg?height=1080&width=1920&text=Housing Development 2",
-                    "/placeholder.svg?height=1080&width=1920&text=Housing Development 3"
-                ]
-            },
-            {
-                id: 6,
-                name: "Retail Shopping Complex",
-                category: "commercial",
-                location: "Miami, FL",
-                completionDate: "September 2023",
-                description: "Construction of a multi-level retail and entertainment complex. The design incorporated open-air spaces and modern architectural elements to create a vibrant shopping experience.",
-                images: [
-                    "/placeholder.svg?height=1080&width=1920&text=Shopping Complex 1",
-                    "/placeholder.svg?height=1080&width=1920&text=Shopping Complex 2",
-                    "/placeholder.svg?height=1080&width=1920&text=Shopping Complex 3"
-                ]
-            },
-            {
-                id: 7,
-                name: "Logistics & Distribution Center",
-                category: "industrial",
-                location: "Dallas, TX",
-                completionDate: "February 2024",
-                description: "Development of a large-scale logistics and distribution center with automated warehousing systems. The project focused on maximizing operational efficiency and scalability.",
-                images: [
-                    "/placeholder.svg?height=1080&width=1920&text=Logistics Center 1",
-                    "/placeholder.svg?height=1080&width=1920&text=Logistics Center 2",
-                    "/placeholder.svg?height=1080&width=1920&text=Logistics Center 3"
-                ]
-            },
-            {
-                id: 8,
-                name: "High-Speed Rail Expansion",
-                category: "infrastructure",
-                location: "California, USA",
-                completionDate: "June 2025",
-                description: "Extension of a high-speed rail line, including new tracks, stations, and associated infrastructure. A complex project requiring extensive coordination with local authorities and environmental considerations.",
-                images: [
-                    "/placeholder.svg?height=1080&width=1920&text=High-Speed Rail 1",
-                    "/placeholder.svg?height=1080&width=1920&text=High-Speed Rail 2",
-                    "/placeholder.svg?height=1080&width=1920&text=High-Speed Rail 3"
-                ]
-            }
+            // {
+            //     id: 5,
+            //     name: "Suburban Housing Development",
+            //     category: "residential",
+            //     location: "Austin, TX",
+            //     completionDate: "March 2024",
+            //     description: "Development of a new suburban community with 150 single-family homes. Focused on energy efficiency and community amenities, including parks and recreational facilities.",
+            //     images: [
+            //         "/placeholder.svg?height=1080&width=1920&text=Housing Development 1",
+            //         "/placeholder.svg?height=1080&width=1920&text=Housing Development 2",
+            //         "/placeholder.svg?height=1080&width=1920&text=Housing Development 3"
+            //     ]
+            // },
+            // {
+            //     id: 6,
+            //     name: "Retail Shopping Complex",
+            //     category: "commercial",
+            //     location: "Miami, FL",
+            //     completionDate: "September 2023",
+            //     description: "Construction of a multi-level retail and entertainment complex. The design incorporated open-air spaces and modern architectural elements to create a vibrant shopping experience.",
+            //     images: [
+            //         "/placeholder.svg?height=1080&width=1920&text=Shopping Complex 1",
+            //         "/placeholder.svg?height=1080&width=1920&text=Shopping Complex 2",
+            //         "/placeholder.svg?height=1080&width=1920&text=Shopping Complex 3"
+            //     ]
+            // },
+            // {
+            //     id: 7,
+            //     name: "Logistics & Distribution Center",
+            //     category: "industrial",
+            //     location: "Dallas, TX",
+            //     completionDate: "February 2024",
+            //     description: "Development of a large-scale logistics and distribution center with automated warehousing systems. The project focused on maximizing operational efficiency and scalability.",
+            //     images: [
+            //         "/placeholder.svg?height=1080&width=1920&text=Logistics Center 1",
+            //         "/placeholder.svg?height=1080&width=1920&text=Logistics Center 2",
+            //         "/placeholder.svg?height=1080&width=1920&text=Logistics Center 3"
+            //     ]
+            // },
+            // {
+            //     id: 8,
+            //     name: "High-Speed Rail Expansion",
+            //     category: "infrastructure",
+            //     location: "California, USA",
+            //     completionDate: "June 2025",
+            //     description: "Extension of a high-speed rail line, including new tracks, stations, and associated infrastructure. A complex project requiring extensive coordination with local authorities and environmental considerations.",
+            //     images: [
+            //         "/placeholder.svg?height=1080&width=1920&text=High-Speed Rail 1",
+            //         "/placeholder.svg?height=1080&width=1920&text=High-Speed Rail 2",
+            //         "/placeholder.svg?height=1080&width=1920&text=High-Speed Rail 3"
+            //     ]
+            // }
         ];
 
         let currentSection = 0; // Tracks the current section index for desktop scroll

@@ -112,7 +112,7 @@
 
         /* About Hero */
         #about-hero {
-            background-image: url('/placeholder.svg?height=1080&width=1920');
+            background-image: url('./imgs/2.jpeg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -140,7 +140,20 @@
 
         /* Company Journey */
         #company-journey {
-            background-color: #0e0e0e; /* Slightly different dark shade */
+            background-image: url('./imgs/3.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        #company-journey::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(14, 14, 14, 0.8); /* Dark overlay */
+            z-index: 1;
         }
         .journey-card {
             padding: 1.5rem;
@@ -160,7 +173,20 @@
 
         /* Management Team */
         #management-team {
-            background-color: #1a1a1a;
+            background-image: url('./imgs/1.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        #management-team::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(14, 14, 14, 0.6); /* Dark overlay */
+            z-index: 1;
         }
 
         .team-card {
@@ -189,8 +215,22 @@
         }
 
         /* Global Operations Section */
+        
         #global-operations-section {
-            background-color: #0e0e0e;
+            background-image: url('./imgs/4.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        #global-operations-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(14, 14, 14, 0.6); /* Dark overlay */
+            z-index: 1;
         }
         .country-item {
             padding: 0.5rem 0;
@@ -198,8 +238,23 @@
         }
 
         /* Global Stats Section */
+        
+
         #global-stats-section {
-            background-color: #1a1a1a;
+            background-image: url('./imgs/4.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        #global-stats-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(14, 14, 14, 0.6); /* Dark overlay */
+            z-index: 1;
         }
         .stat-number {
             font-size: 2.5rem;
@@ -216,10 +271,40 @@
         #financial-chart-section {
             background-color: #0e0e0e;
         }
+        #financial-chart-section {
+            background-image: url('./imgs/6.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        #financial-chart-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(14, 14, 14, 0.6); /* Dark overlay */
+            z-index: 1;
+        }
 
         /* Financial Highlights Section */
+        
         #financial-highlights-section {
-            background-color: #1a1a1a;
+            background-image: url('./imgs/7.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        #financial-highlights-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(14, 14, 14, 0.6); /* Dark overlay */
+            z-index: 1;
         }
 
         .highlight-value {
@@ -271,9 +356,21 @@
 
         /* Strategic Equipment */
         #strategic-equipment {
-            background-color: #1a1a1a;
+            background-image: url('./imgs/8.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
         }
-
+        #strategic-equipment::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(14, 14, 14, 0.6); /* Dark overlay */
+            z-index: 1;
+        }
         .equipment-card {
             overflow: hidden;
             transition: transform 0.3s ease;
@@ -590,7 +687,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid px-5 py-1 justify-content-center" style="width: 80%;">
             <a class="navbar-brand" href="#hero">
-                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logor_c-removebg-preview-jaaqsGkxz5kBoLckF9BMxkH6qBqRXa.png" alt="Logo" height="40" />
+                <img src="./imgs/logo.png" alt="Logo" height="40" />
             </a>
             <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -630,7 +727,7 @@
         <button class="scroll-dot" data-section="7"></button>
         <button class="scroll-dot" data-section="8"></button>
         <button class="scroll-dot" data-section="9"></button>
-        <button class="scroll-dot" data-section="10"></button>
+        <!-- <button class="scroll-dot" data-section="10"></button> -->
     </div>
     <div class="scroll-wrapper">
         <div class="scroll-container" id="scrollContainer">
@@ -706,7 +803,7 @@
                         <div class="row g-4 justify-content-center">
                             <div class="col-lg-3 col-md-6">
                                 <div class="team-card glass-card text-center">
-                                    <img src="/placeholder.svg?height=200&width=200" alt="CEO" class="team-img mb-3">
+                                    <img src="https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341" alt="CEO" class="team-img mb-3">
                                     <h4 class="text-white">Rajesh Kumar</h4>
                                     <p class="designation">Chairman & Managing Director</p>
                                     <p class="bio text-white">With over 30 years of experience in infrastructure development, Rajesh has led the company to new heights of success.</p>
@@ -714,7 +811,7 @@
                             </div>
                             <div class="col-lg-3 col-md-6">
                                 <div class="team-card glass-card text-center">
-                                    <img src="/placeholder.svg?height=200&width=200" alt="COO" class="team-img mb-3">
+                                    <img src="https://www.perfocal.com/blog/content/images/size/w960/2021/01/Perfocal_17-11-2019_TYWFAQ_100_standard-3.jpg" alt="COO" class="team-img mb-3">
                                     <h4 class="text-white">Priya Sharma</h4>
                                     <p class="designation">Chief Operating Officer</p>
                                     <p class="bio text-white">Priya oversees all operational aspects and has been instrumental in our international expansion strategy.</p>
@@ -722,7 +819,7 @@
                             </div>
                             <div class="col-lg-3 col-md-6">
                                 <div class="team-card glass-card text-center">
-                                    <img src="/placeholder.svg?height=200&width=200" alt="CTO" class="team-img mb-3">
+                                    <img src="https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg" alt="CTO" class="team-img mb-3">
                                     <h4 class="text-white">Amit Patel</h4>
                                     <p class="designation">Chief Technology Officer</p>
                                     <p class="bio text-white">Leading our technology initiatives and digital transformation across all project verticals.</p>
@@ -730,7 +827,7 @@
                             </div>
                             <div class="col-lg-3 col-md-6">
                                 <div class="team-card glass-card text-center">
-                                    <img src="/placeholder.svg?height=200&width=200" alt="CFO" class="team-img mb-3">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw0PDKrErulLlbJkbv5KtsCeICczdgJSyurA&s" alt="CFO" class="team-img mb-3">
                                     <h4 class="text-white">Sunita Gupta</h4>
                                     <p class="designation">Chief Financial Officer</p>
                                     <p class="bio text-white">Managing financial strategy and investor relations with expertise in infrastructure financing.</p>
@@ -903,45 +1000,45 @@
                     <div class="container">
                         <h2 class="display-5 fw-bold text-white">Awards & Recognition</h2>
                         <p class="lead text-white">Excellence recognized globally</p>
-                    </div>
+                    </div>  
                 </div>
                 <div class="section-content">
                     <div class="container">
                         <div class="awards-slider-container">
                             <div class="awards-slider" id="awardsSlider">
                                 <div class="award-item glass-card">
-                                    <img src="/placeholder.svg?height=100&width=100" alt="Award 1" class="award-logo">
+                                    <!-- <img src="/placeholder.svg?height=100&width=100" alt="Award 1" class="award-logo"> -->
                                     <h5 class="text-white">Best Infrastructure Company</h5>
                                     <p class="text-white">Construction World Awards 2023</p>
                                 </div>
                                 <div class="award-item glass-card">
-                                    <img src="/placeholder.svg?height=100&width=100" alt="Award 2" class="award-logo">
+                                    <!-- <img src="/placeholder.svg?height=100&width=100" alt="Award 2" class="award-logo"> -->
                                     <h5 class="text-white">Excellence in Engineering</h5>
                                     <p class="text-white">Indian Engineering Excellence Awards 2023</p>
                                 </div>
                                 <div class="award-item glass-card">
-                                    <img src="/placeholder.svg?height=100&width=100" alt="Award 3" class="award-logo">
+                                    <!-- <img src="/placeholder.svg?height=100&width=100" alt="Award 3" class="award-logo"> -->
                                     <h5 class="text-white">Sustainability Champion</h5>
                                     <p class="text-white">Green Construction Awards 2022</p>
                                 </div>
                                 <div class="award-item glass-card">
-                                    <img src="/placeholder.svg?height=100&width=100" alt="Award 4" class="award-logo">
+                                    <!-- <img src="/placeholder.svg?height=100&width=100" alt="Award 4" class="award-logo"> -->
                                     <h5 class="text-white">Innovation in Construction</h5>
                                     <p class="text-white">Technology Excellence Awards 2022</p>
                                 </div>
                                 <div class="award-item glass-card">
-                                    <img src="/placeholder.svg?height=100&width=100" alt="Award 5" class="award-logo">
+                                    <!-- <img src="/placeholder.svg?height=100&width=100" alt="Award 5" class="award-logo"> -->
                                     <h5 class="text-white">Best Employer</h5>
                                     <p class="text-white">Great Place to Work 2023</p>
                                 </div>
                                 <!-- Duplicate items for seamless loop -->
                                 <div class="award-item glass-card">
-                                    <img src="/placeholder.svg?height=100&width=100" alt="Award 1" class="award-logo">
+                                    <!-- <img src="/placeholder.svg?height=100&width=100" alt="Award 1" class="award-logo"> -->
                                     <h5 class="text-white">Best Infrastructure Company</h5>
                                     <p class="text-white">Construction World Awards 2023</p>
                                 </div>
                                 <div class="award-item glass-card">
-                                    <img src="/placeholder.svg?height=100&width=100" alt="Award 2" class="award-logo">
+                                    <!-- <img src="/placeholder.svg?height=100&width=100" alt="Award 2" class="award-logo"> -->
                                     <h5 class="text-white">Excellence in Engineering</h5>
                                     <p class="text-white">Indian Engineering Excellence Awards 2023</p>
                                 </div>
@@ -963,7 +1060,7 @@
                         <div class="row g-4 justify-content-center">
                             <div class="col-lg-4 col-md-6">
                                 <div class="equipment-card glass-card">
-                                    <img src="/placeholder.svg?height=200&width=300" alt="Tower Crane" class="equipment-img">
+                                    <!-- <img src="/placeholder.svg?height=200&width=300" alt="Tower Crane" class="equipment-img"> -->
                                     <div class="equipment-info p-3">
                                         <h5 class="text-white">Tower Cranes</h5>
                                         <p class="text-white">High-capacity tower cranes for high-rise construction and heavy lifting operations.</p>
@@ -972,7 +1069,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="equipment-card glass-card">
-                                    <img src="/placeholder.svg?height=200&width=300" alt="Concrete Pump" class="equipment-img">
+                                    <!-- <img src="/placeholder.svg?height=200&width=300" alt="Concrete Pump" class="equipment-img"> -->
                                     <div class="equipment-info p-3">
                                         <h5 class="text-white">Concrete Pumps</h5>
                                         <p class="text-white">Advanced concrete pumping systems for efficient and precise concrete placement.</p>
@@ -981,7 +1078,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="equipment-card glass-card">
-                                    <img src="/placeholder.svg?height=200&width=300" alt="TBM" class="equipment-img">
+                                    <!-- <img src="/placeholder.svg?height=200&width=300" alt="TBM" class="equipment-img"> -->
                                     <div class="equipment-info p-3">
                                         <h5 class="text-white">Tunnel Boring Machines</h5>
                                         <p class="text-white">State-of-the-art TBMs for underground construction and tunneling projects.</p>
@@ -990,7 +1087,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="equipment-card glass-card">
-                                    <img src="/placeholder.svg?height=200&width=300" alt="Excavator" class="equipment-img">
+                                    <!-- <img src="/placeholder.svg?height=200&width=300" alt="Excavator" class="equipment-img"> -->
                                     <div class="equipment-info p-3">
                                         <h5 class="text-white">Heavy Excavators</h5>
                                         <p class="text-white">Large-scale excavators for earthwork and foundation construction.</p>
@@ -999,7 +1096,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="equipment-card glass-card">
-                                    <img src="/placeholder.svg?height=200&width=300" alt="Piling Rig" class="equipment-img">
+                                    <!-- <img src="/placeholder.svg?height=200&width=300" alt="Piling Rig" class="equipment-img"> -->
                                     <div class="equipment-info p-3">
                                         <h5 class="text-white">Piling Rigs</h5>
                                         <p class="text-white">Specialized piling equipment for deep foundation and marine construction.</p>
@@ -1008,7 +1105,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6">
                                 <div class="equipment-card glass-card">
-                                    <img src="/placeholder.svg?height=200&width=300" alt="Bridge Girder" class="equipment-img">
+                                    <!-- <img src="/placeholder.svg?height=200&width=300" alt="Bridge Girder" class="equipment-img"> -->
                                     <div class="equipment-info p-3">
                                         <h5 class="text-white">Bridge Girder Launchers</h5>
                                         <p class="text-white">Precision equipment for bridge construction and girder installation.</p>
@@ -1020,7 +1117,7 @@
                 </div>
             </section>
             <!-- Annual Turnover Section -->
-            <section id="annual-turnover-section" class="scroll-section">
+            <!-- <section id="annual-turnover-section" class="scroll-section">
                 <div class="section-top-20">
                     <div class="container">
                         <h2 class="display-5 fw-bold text-white">Annual Turnover</h2>
@@ -1044,29 +1141,29 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <!-- Strategic Investments Section -->
-            <section id="strategic-investments-section" class="scroll-section">
-                <div class="section-top-20">
-                    <div class="container">
-                        <h2 class="display-5 fw-bold text-white">Strategic Investments</h2>
-                        <p class="lead text-white">Driving future growth</p>
-                    </div>
-                </div>
-                <div class="section-content">
-                    <div class="container">
-                        <div class="investment-card glass-card p-4">
-                            <h4 class="mb-4 text-white">Strategic Investments</h4>
-                            <ul class="investment-list">
-                                <li><i class="fas fa-check me-2"></i>₹500 Cr in new equipment and technology</li>
-                                <li><i class="fas fa-check me-2"></i>₹200 Cr in R&D and innovation</li>
-                                <li><i class="fas fa-check me-2"></i>₹300 Cr in international expansion</li>
-                                <li><i class="fas fa-check me-2"></i>₹150 Cr in sustainability initiatives</li>
-                            </ul>
+                <!-- <section id="strategic-investments-section" class="scroll-section">
+                    <div class="section-top-20">
+                        <div class="container">
+                            <h2 class="display-5 fw-bold text-white">Strategic Investments</h2>
+                            <p class="lead text-white">Driving future growth</p>
                         </div>
                     </div>
-                </div>
-            </section>
+                    <div class="section-content">
+                        <div class="container">
+                            <div class="investment-card glass-card p-4">
+                                <h4 class="mb-4 text-white">Strategic Investments</h4>
+                                <ul class="investment-list">
+                                    <li><i class="fas fa-check me-2"></i>₹500 Cr in new equipment and technology</li>
+                                    <li><i class="fas fa-check me-2"></i>₹200 Cr in R&D and innovation</li>
+                                    <li><i class="fas fa-check me-2"></i>₹300 Cr in international expansion</li>
+                                    <li><i class="fas fa-check me-2"></i>₹150 Cr in sustainability initiatives</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section> -->
             <!-- Growth Projections Section -->
             <section id="growth-projections-section" class="scroll-section">
                 <div class="section-top-20">

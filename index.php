@@ -134,7 +134,7 @@
         }
 
         .carousel-item img {
-            height:     ;
+            height: 100vh ;
             width: 100%;
             object-fit: cover;
         }
@@ -972,7 +972,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid px-5 py-1 justify-content-center" style="width: 80%;">
             <a class="navbar-brand" href="#hero">
-                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logor_c-removebg-preview-jaaqsGkxz5kBoLckF9BMxkH6qBqRXa.png" alt="Logo" height="40" />
+                <img src="./imgs/logo.png" alt="Logo" height="40" />
             </a>
             <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -1015,6 +1015,7 @@
         <button class="scroll-dot" data-section="9"></button>
         <button class="scroll-dot" data-section="10"></button>
         <button class="scroll-dot" data-section="11"></button>
+        <button class="scroll-dot" data-section="12"></button>
     </div>
 
     <!-- Desktop Scroll Container -->
@@ -1200,7 +1201,7 @@
             </section>
 
             <!-- Project 1: Chenab Bridge -->
-            <section class="scroll-section project-section" style="background-image: url('/placeholder.svg?height=800&width=1200&text=Chenab+Railway+Bridge');">
+            <section class="scroll-section project-section" style="background-image: url('./imgs/1.jpeg');">
                 <div class="section-content">
                     <div class="project-content">
                         <div class="project-info">
@@ -1217,7 +1218,7 @@
             </section>
 
             <!-- Project 2: Mumbai Metro -->
-            <section class="scroll-section project-section" style="background-image: url('/placeholder.svg?height=800&width=1200&text=Mumbai+Metro+Underground');">
+            <section class="scroll-section project-section" style="background-image: url('./imgs/2.jpeg');">
                 <div class="section-content">
                     <div class="project-content justify-content-end">
                         <div class="project-info">
@@ -1234,7 +1235,7 @@
             </section>
 
             <!-- Project 3: Atal Tunnel -->
-            <section class="scroll-section project-section" style="background-image: url('/placeholder.svg?height=800&width=1200&text=Atal+Tunnel+Himachal');">
+            <section class="scroll-section project-section" style="background-image: url('./imgs/3.jpeg');">
                 <div class="section-content">
                     <div class="project-content">
                         <div class="project-info">
@@ -1251,7 +1252,7 @@
             </section>
 
             <!-- Project 4: Port Terminal -->
-            <section class="scroll-section project-section" style="background-image: url('/placeholder.svg?height=800&width=1200&text=Port+Terminal+Mauritania');">
+            <section class="scroll-section project-section" style="background-image: url('./imgs/4.jpeg');">
                 <div class="section-content">
                     <div class="project-content justify-content-end">
                         <div class="project-info">
@@ -1271,7 +1272,7 @@
             <section class="scroll-section more-projects-section">
                 <div class="section-content">
                     <div class="more-projects-content container-fluid">
-                        <div class="row g-4 h-100 align-items-end">
+                        <div class="row g-4 h-100 align-items-end" style="margin: auto;">
                             <div class="col-lg-4 col-md-5">
                                 <div class="project-title-card">
                                     <div class="text-center">
@@ -1371,19 +1372,25 @@
             <div class="mobile-carousel carousel slide w-100" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="/placeholder.svg?height=400&width=800&text=Building+Tomorrow" class="d-block w-100" alt="Construction Site">
+                        <img src="./imgs/1.jpeg" class="d-block w-100" alt="Construction Site">
                         <div class="overlay">
                             Building Tomorrow
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="/placeholder.svg?height=400&width=800&text=Engineering+Excellence" class="d-block w-100" alt="Engineering Project">
+                        <img src="./imgs/2.jpeg" class="d-block w-100" alt="Engineering Project">
                         <div class="overlay">
                             Engineering Excellence
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="/placeholder.svg?height=400&width=800&text=Infrastructure+Leaders" class="d-block w-100" alt="Infrastructure">
+                        <img src="./imgs/3.jpeg" class="d-block w-100" alt="Infrastructure">
+                        <div class="overlay">
+                            Infrastructure Leaders
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imgs/4.jpeg" class="d-block w-100" alt="Infrastructure">
                         <div class="overlay">
                             Infrastructure Leaders
                         </div>
@@ -1410,7 +1417,7 @@
         <!-- Mobile Services Section 3 -->
         <section class="mobile-section mobile-services-3">
             <div class="services-bg">
-                <img src="/placeholder.svg?height=400&width=800&text=Tunnel+Construction" alt="Tunnel Construction" />
+                <img src="./imgs/tunnel.webp" alt="Tunnel Construction" />
             </div>
             <div class="services-list text-white text-center position-relative z-2 w-100 p-4">
                 <h2 class="mb-4 fw-bold">Our Services</h2>
@@ -1435,7 +1442,7 @@
             <div class="section-content">
                 <div class="row">
                     <div class="col-12">
-                        <div class="mobile-area-card mb-3" style="background-image: url('/placeholder.svg?height=300&width=800&text=Marine+Industrial');">
+                        <div class="mobile-area-card mb-3" style="background-image: url('./imgs/6.jpg');">
                             <div class="overlay-text">
                                 <h4>MARINE & INDUSTRIAL</h4>
                                 <p>Nouakchott Container Terminal, Mauritania</p>
@@ -1443,7 +1450,7 @@
                         </div>
                     </div>
                     <div class="col-12">
-                        <div class="mobile-area-card mb-3" style="background-image: url('/placeholder.svg?height=300&width=800&text=Surface+Transport');">
+                        <div class="mobile-area-card mb-3" style="background-image: url('./imgs/7.jpg');">
                             <div class="overlay-text">
                                 <h4>SURFACE TRANSPORT</h4>
                                 <p>Samruddhi Mahamarg, Maharashtra, India</p>
@@ -1451,7 +1458,7 @@
                         </div>
                     </div>
                     <div class="col-12">
-                        <div class="mobile-area-card mb-3" style="background-image: url('/placeholder.svg?height=300&width=800&text=Oil+Gas');">
+                        <div class="mobile-area-card mb-3" style="background-image: url('./imgs/8.jpg');">
                             <div class="overlay-text">
                                 <h4>OIL & GAS</h4>
                                 <p>HRD Process Platform, Mumbai High, India</p>
@@ -1459,7 +1466,7 @@
                         </div>
                     </div>
                     <div class="col-12">
-                        <div class="mobile-area-card mb-3" style="background-image: url('/placeholder.svg?height=300&width=800&text=Hydro+Underground');">
+                        <div class="mobile-area-card mb-3" style="background-image: url('./imgs/9.jpg');">
                             <div class="overlay-text">
                                 <h4>HYDRO & UNDERGROUND</h4>
                                 <p>Atal Tunnel, Himachal Pradesh, India</p>
@@ -1467,7 +1474,7 @@
                         </div>
                     </div>
                     <div class="col-12">
-                        <div class="mobile-area-card mb-3" style="background-image: url('/placeholder.svg?height=300&width=800&text=Urban+Infrastructure');">
+                        <div class="mobile-area-card mb-3" style="background-image: url('./imgs/10.jpg');">
                             <div class="overlay-text">
                                 <h4>URBAN INFRASTRUCTURE</h4>
                                 <p>East-West Metro, Kolkata, India</p>
@@ -1479,7 +1486,7 @@
         </section>
 
         <!-- Mobile Testimonials -->
-        <section class="mobile-section position-relative" style="background: url('/placeholder.svg?height=400&width=800&text=Testimonials+Background') center/cover;">
+        <section class="mobile-section position-relative" style="background: url('./imgs/1.jpeg') center/cover;">
             <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-75"></div>
             <div class="section-top-20" style="background-color: rgba(0, 0, 0, 0.3);">
                 <h1 class="display-6 fw-bold text-center" >VALIDATIONS</h1>
@@ -1603,13 +1610,13 @@
                     </div>
                     <div class="col-6 col-md-4">
                         <div class="project-thumb text-center">
-                            <img src="/placeholder.svg?height=100&width=100&text=Highway" alt="Jammu Highway">
+                            <img src="./imgs/1.jpeg" alt="Jammu Highway">
                             <p class="mt-2">Jammu Udhampur Highway<br><small>India</small></p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4">
                         <div class="project-thumb text-center">
-                            <img src="/placeholder.svg?height=100&width=100&text=Metro" alt="Delhi Metro">
+                            <img src="./imgs/4.jpeg" alt="Delhi Metro">
                             <p class="mt-2">Delhi Metro Extension<br><small>India</small></p>
                         </div>
                     </div>
@@ -1897,22 +1904,22 @@
         });
 
         // Smooth scroll for navbar links
-        document.querySelectorAll('.nav-link').forEach(link => {
-            link.addEventListener('click', (e) => {
-                if (isMobile()) return; // Let default behavior work on mobile
+        // document.querySelectorAll('.nav-link').forEach(link => {
+        //     link.addEventListener('click', (e) => {
+        //         if (isMobile()) return; // Let default behavior work on mobile
                 
-                e.preventDefault();
-                const targetId = link.getAttribute('href');
-                const targetSection = document.querySelector(targetId);
+        //         e.preventDefault();
+        //         const targetId = link.getAttribute('href');
+        //         const targetSection = document.querySelector(targetId);
                 
-                if (targetSection) {
-                    const sectionIndex = Array.from(document.querySelectorAll('.scroll-section')).indexOf(targetSection);
-                    if (sectionIndex !== -1) {
-                        scrollToSection(sectionIndex);
-                    }
-                }
-            });
-        });
+        //         if (targetSection) {
+        //             const sectionIndex = Array.from(document.querySelectorAll('.scroll-section')).indexOf(targetSection);
+        //             if (sectionIndex !== -1) {
+        //                 scrollToSection(sectionIndex);
+        //             }
+        //         }
+        //     });
+        // });
     </script>
 </body>
 </html>
