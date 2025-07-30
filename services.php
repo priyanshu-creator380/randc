@@ -113,7 +113,7 @@
 
         /* Intro Section Specifics */
         #services-intro {
-            background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-07-15%20120854%20(1)-Dn7LkOkuBrAPe1n9Mc1yBYMtKBlbtQ.png'); /* Updated image URL */
+            background-image: url('./imgs/2.jpeg'); /* Updated image URL */
         }
 
         #services-intro::before {
@@ -169,6 +169,7 @@
             color: white;
             position: relative; /* For z-index context */
             z-index: 2; /* Ensure content is above overlay */
+            margin-top: 12%; /* Add some top margin for spacing */
         }
 
         .section-body-content {
@@ -527,7 +528,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid px-5 py-1 justify-content-center" style="width: 80%;">
             <a class="navbar-brand" href="#hero">
-                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logor_c-removebg-preview-jaaqsGkxz5kBoLckF9BMxkH6qBqRXa.png" alt="Logo" height="40" />
+                <img src="./imgs/logo.png" alt="Logo" height="40" />
             </a>
             <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -925,14 +926,12 @@
                                 <div class="row g-0 h-100">
                                     <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
                                         <div class="tool-logo-item glass-card">
-                                            <img src="${toolItem1.image}" alt="${toolItem1.name}">
                                             <p>${toolItem1.name}</p>
                                         </div>
                                     </div>
                                     ${toolItem2 ? `
                                     <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
                                         <div class="tool-logo-item glass-card">
-                                            <img src="${toolItem2.image}" alt="${toolItem2.name}">
                                             <p>${toolItem2.name}</p>
                                         </div>
                                     </div>
@@ -940,7 +939,6 @@
                                     ${toolItem3 ? `
                                     <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
                                         <div class="tool-logo-item glass-card">
-                                            <img src="${toolItem3.image}" alt="${toolItem3.name}">
                                             <p>${toolItem3.name}</p>
                                         </div>
                                     </div>
