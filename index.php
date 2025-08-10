@@ -1345,7 +1345,7 @@
                     </div>
                 </div>
                 <!-- Footer positioned absolutely at bottom of this section -->
-                <footer class="footer-nav-glass">
+                <footer style="display:none" class="footer-nav-glass">
                     <div class="container d-flex justify-content-center align-items-center flex-wrap">
                         <a href="#">Be a Vendor</a>
                         <a href="#">Investors</a>
@@ -1655,7 +1655,7 @@
         </section>
 
         <!-- Mobile Footer -->
-        <footer class="footer-nav-glass">
+        <footer style="display:none" class="footer-nav-glass">
             <div class="container d-flex justify-content-center align-items-center flex-wrap">
                 <a href="#">Be a Vendor</a>
                 <a href="#">Investors</a>
